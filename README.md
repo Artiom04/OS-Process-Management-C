@@ -1,14 +1,14 @@
 # OS-Process-Management-C
 Questa cartella contiene una serie di esercizi focalizzati sulla creazione di processi tramite fork(), la comunicazione tra processi (IPC) e la gestione dei segnali in ambiente Linux/Unix.
 
-#🏆 Obiettivi dell'Esercitazione 
+## 🏆 Obiettivi dell'Esercitazione 
 L'obiettivo è padroneggiare le chiamate di sistema per:
 - Generazione di processi figli (fork).
 - Sincronizzazione base tra processi.
 - Scambio di dati tramite Pipe o messaggi (Esercizi 3-6).
 - Esecuzione di comandi di sistema e invio segnali (kill) (Esercizi 7-8).
 
-📂 Struttura degli Esercizi
+## 📂 Struttura degli Esercizi
 | Esercizio | Descrizione Breve |
 | :--- | :--- |
 | **01** | [cite_start]Creazione di un processo figlio F1 da un padre P[cite: 2, 4]. |
@@ -20,7 +20,7 @@ L'obiettivo è padroneggiare le chiamate di sistema per:
 
 
 
-# 🚀 Come compilare ed eseguire
+## 🚀 Come compilare ed eseguire
 ```bash
 gcc -o esercizio1 Esercizio_1/esercizio1.c
 ./esercizio1
